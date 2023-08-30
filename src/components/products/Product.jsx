@@ -3,9 +3,6 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Product.css';
 import { Link } from 'react-router-dom';
-import Navigation from '../navigation/Navigation';
-// import Sidebar from '../sidebar/Sidebar';
-import Footer from '../footer/Footer'
 
 const Product = () => {
 
@@ -39,8 +36,6 @@ const Product = () => {
 
   return (
     <>
-      {/* <Navigation /> */}
-      {/* <Sidebar /> */}
       <div className='product-border'>
         <div className="product-container">
           <div id='product-heading'>

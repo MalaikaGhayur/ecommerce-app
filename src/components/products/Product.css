@@ -16,6 +16,15 @@
   margin-bottom: 19px;
 }
 
+#product-heading h2 {
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+#product-heading h2:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
 .borderr {
   border: 3px solid black;
 }

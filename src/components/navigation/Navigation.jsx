@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import "./Nav.css";
 const Navigation = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark stick">
             <div className="container-fluid">
                 <Link className="navbar-brand mx-3 " to="/">
                     <span id='logo'>SHOPVILLA</span>
@@ -19,7 +19,7 @@ const Navigation = () => {
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <Link className="nav-link active mx-3" aria-current="page" to="/">
