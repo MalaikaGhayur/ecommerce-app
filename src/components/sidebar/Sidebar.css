@@ -1,0 +1,43 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sidebar-main {
+    border: 3px solid black;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 3px;
+    top: 41px;
+    width: 15%;
+    height: 98.5%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    /* z-index: -1; */
+  }
+  .sidebar-main ul {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .sidebar-main ul li {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 55px;
+    font-size: 15px;
+    color: white;
+    box-sizing: border-box;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 11px;
+  }
+
+  .icon-list .material-symbols-outlined {
+    font-size: 20px;
+  }
+
+  .icon-list li a {
+    border: 2px solid white;
+  }
+}

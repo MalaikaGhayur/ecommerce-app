@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+h2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.contact-border {
+  margin-bottom: 10%;
+  padding-top: 75px;
+}
+@media (max-width: 768px) {
+  input,
+  button {
+    width: 80%;
+  }
+}
